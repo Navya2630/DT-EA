@@ -1,11 +1,10 @@
-install.package("party")
-
-library(party)
-
-View(readingSkills)
-
-input =  readingSkills[c(1:105),]
-
-output = ctree(nativeSpeaker ~ age + shoeSize + score, data = input)
-
-plot(output)
+public class dt-ea {
+    public static void main(String[] args) {
+        char ch = 'a';
+        int ascii = ch;
+        // You can also cast char to int
+        int castAscii = (int) ch;
+        System.out.println("The ASCII value of " + ch + " is: " + ascii);
+        System.out.println("The ASCII value of " + ch + " is: " + castAscii);
+    }
+}
